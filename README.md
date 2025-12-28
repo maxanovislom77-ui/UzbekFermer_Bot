@@ -1,8 +1,9 @@
+import os
 import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext, CallbackQueryHandler
 
-# BOT TOKEN (test uchun, xavfsiz emas, ommaga bermang!)
+# BOT TOKEN (Railway Variables orqali xavfsiz ishlashi mumkin)
 BOT_TOKEN = "8500456022:AAEgGWiWsPsq5sZqoLkdbb652MDmMGcN_JY"
 
 # Sizning Telegram ID (admin)
